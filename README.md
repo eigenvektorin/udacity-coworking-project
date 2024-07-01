@@ -21,7 +21,7 @@ Clone the repo to retreive its contents
 ### Database Initialization
 
 **Set Up a Postgres Database**:
-   - Set up a Postgres database using a Helm Chart.
+Set up a Postgres database using a Helm Chart:
 
    ```sh
    # Set up Bitnami Repo
@@ -29,7 +29,6 @@ Clone the repo to retreive its contents
 
    # Install PostgreSQL Helm Chart
    helm install <SERVICE_NAME> <REPO_NAME>/postgresql
-
 
 
 ## Application Configuration
