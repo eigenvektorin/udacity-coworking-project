@@ -29,6 +29,7 @@ Set up a Postgres database using a Helm Chart:
 
    # Install PostgreSQL Helm Chart
    helm install <SERVICE_NAME> <REPO_NAME>/postgresql
+```
 
 
 ## Application Configuration
