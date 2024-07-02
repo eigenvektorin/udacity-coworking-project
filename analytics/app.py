@@ -80,6 +80,6 @@ def all_user_visits():
 scheduler = BackgroundScheduler()
 job = scheduler.add_job(get_daily_visits, 'interval', seconds=30)
 scheduler.start()
-
+#update
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=port_number)
